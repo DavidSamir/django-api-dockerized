@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: django_app
+    volumes:
+      - ./src:/dja
+    ports:
+      - "8000:8000"

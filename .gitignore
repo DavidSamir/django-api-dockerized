@@ -1,0 +1,7 @@
+*.pyc
+public/*
+*.pyc
+db/*
+api/__pycache__/*
+api/migrations/*.py
+git
